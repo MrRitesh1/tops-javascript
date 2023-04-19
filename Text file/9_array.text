@@ -1,0 +1,62 @@
+
+What is Array ?
+~ An array is a collection of items of same data type
+  stored at contiguous memory locations. 
+~ Arrays are used to store multiple values in a single variable. 
+  This is compared to a variable that can store only one value.
+~ Each item in an array has a number attached to it, called a numeric index,
+  that allows you to access it.In JavaScript, arrays start at index zero and can
+  be manipulated with various methods.
+
+
+
+sentx :-
+
+ dataType array_name = {
+    body 
+
+ }
+  console.log(array_name);
+
+
+ EXP :-
+ const cars = ["Saab", "Volvo", "BMW"];
+
+  console.log(cars);    Outaput (Saab, Volvo,BMW);
+
+  console.log(cars[1]); Outaput (Volvo);
+
+
+
+Array Methods  .........................................
+
+concat()
+copyWithin()
+every()
+filter()
+flat()
+flatMap()
+forEach()
+indexOf()
+lastIndexOf()
+map()
+reduce()
+reduceRight()
+reverse()
+slice()
+some()
+sort()
+splice()
+entries()
+fill()
+find()
+findIndex()
+findLast()
+findLastIndex()
+group() Experimental
+groupToMap() Experimental
+includes()
+join()
+keys()
+toLocaleString()
+values()
