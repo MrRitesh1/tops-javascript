@@ -10,3 +10,12 @@ console.log("-----------------------------------");
 // itam object in values add .....
 itam["Friend"] = "Harsh";
 console.log(itam);
+
+const data = "Companie";
+
+const multiData = {
+  [data + "Employ"]: "Krutik",
+  [data + "Menegar"]: "Jay",
+};
+
+console.log("Companie Data : ", multiData);
