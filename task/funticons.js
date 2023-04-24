@@ -14,8 +14,8 @@ const xyz = (val1, val2, ...val) => {
 
 xyz(18, 35, 42, 84, 16);
 
-const demo = (val1, val2, val3) => {
-  let sum = val1 + val2;
+const demo = (val1, val2, val3 = 0) => {
+  let sum = val1 + val2 + val3;
   console.log("Normal Value Print : ", sum);
 };
 demo(3, 2);

@@ -24,4 +24,5 @@ const dynamicObject = (selection, value) => {
 
 dynamicObject("areData", areData);
 
+
 module.exports = { objData };
